@@ -13,7 +13,7 @@
                     <img src="files/logo.webp" alt="PencilBox" title="PencilBox" width="80%" height="60%">
                 </td>
                 <td colspan="3" width="25%" align="right">
-                    <a href="">Home</a> |
+                    <a href="index.html">Home</a> |
                     <a href="#">Services</a> |
                     <a href="#">Courses</a> |
                     <a href="#">Workshop</a> |
@@ -41,13 +41,70 @@
 
             <!--Main Start-->
             <tr >
-                <td height="130px" colspan="4" width="100%"></td>
+                <td height="560px" width="35%"></td>
+                <td colspan="2" width="30%" align="left" valign="top">
+                    <form method="get">
+                        <label for="courses">Select a course : </label>
+                        <select name="courses" id="courses">
+                            <option>Select a course</option>
+                            <option value="graphic_design">Graphic Design</option>
+                            <option value="digital_marketing">Digital Marketing</option>
+                            <option value="web_design">Web Design & Development</option>
+                        </select><br><br>
+
+                        <label for="full_name">Name : </label>
+                        <input type="text" name="full_name" id="full_name" placeholder="Full Name"><br><br>
+
+                        <label for="mobile">Mobile Number : </label>
+                        <input type="tel" name="mobile" id="mobile" placeholder="01*********" maxlength="11"><br><br>
+
+                        <label for="email">Email Address : </label>
+                        <input type="email" name="email" id="email" placeholder="abc@example.com"><br><br>
+                        
+                        <label for="date_of_birth">Date of Birth : </label>
+                        <input type="date" name="date_of_birth" id="date_of_birth"><br><br>
+                        
+                        <label for="gender">Gender : </label>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male" value="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female" value="female">Female</label><br><br>
+
+                        <label for="education">Last Educational Qualification : </label>
+                        <select name="education" id="education">
+                            <option>Select Educational Qualification</option>
+                            <option value="jsc">JSC or below</option>
+                            <option value="ssc">SSC</option>
+                            <option value="hsc">HSC</option>
+                            <option value="graduation">Graduation or above</option>
+                        </select><br><br>
+                        
+                        <label for="identification">Identification Type : </label>
+                        <select name="identification" id="identification">
+                            <option>Select</option>
+                            <option value="nid">NID</option>
+                            <option value="brc">Birth Registration Certificate</option>
+                            <option value="passport">Passport</option>
+                        </select><br><br>
+
+                        <label for="id_number">Identification Number : </label>
+                        <input type="number" name="id_number" id="id_number"><br><br>
+
+                        <label for="photo">Upload your recent photo : </label>
+                        <input type="file" name="photo" id="photo">
+                        <br><br>
+                        
+                        <input type="reset">
+                        <input type="submit">
+                    </form>                    
+                </td>
+                <td width="35%"></td>
             </tr>
             <!--Main End-->
 
             <!--Big Footer Start-->
             <tr >
-                <td height="130px" width="25%"></td>
+                <td height="30px" width="25%"></td>
                 <td width="25%"></td>
                 <td width="25%"></td>
                 <td width="25%"></td>
